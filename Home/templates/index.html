@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{% block content %}
+{% load static %}
+    <h1>How to be successful in the Technology World</h1>
+
+    {% for i in Key %}
+     <h1>{{i}}</h1>
+    {%endfor%}
+<img src="{% static 'images/pics 1.jpg' %}" alt="">
+{% endblock content %}
